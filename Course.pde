@@ -47,16 +47,16 @@ static int NB_TOUR = 0;
 void setup() {
   size(800, 600, P3D);
   // Chargements
-  phare = loadShader("data/phareFrag.glsl", "data/phareVert.glsl");
-  voitureShader = loadShader("data/voitureFrag.glsl", "data/voitureVert.glsl");
-  cubeMapJour = loadImage("data/desert.png");
+  phare = loadShader("phareFrag.glsl", "phareVert.glsl");
+  voitureShader = loadShader("voitureFrag.glsl", "voitureVert.glsl");
+  cubeMapJour = loadImage("desert.png");
   generateNightCubemap();
   cubeMap = cubeMapJour;
-  voiture = loadShape("data/Car.obj");
+  voiture = loadShape("Car.obj");
   voiture.setStroke(false);
-  voiture2 = loadShape("data/Car.obj");
+  voiture2 = loadShape("Car.obj");
   voiture2.setStroke(false);
-  cactus = loadShape("data/model.obj");
+  cactus = loadShape("model.obj");
   
   // Initialisations
   generateCubeMap();  
