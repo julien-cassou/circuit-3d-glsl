@@ -15,8 +15,8 @@ L'objectif principal était de mettre en œuvre un pipeline de rendu graphique p
 * Outils : Processing
 
 ## Images du jeu 
-[!Rendu Circuit 3D - Jour]("assets/circuitJour")
-[!Rendu Circuit 3D - Nuit]("assets/circuitNuit")
+![Rendu Circuit 3D - Jour]("assets/circuitJour")
+![Rendu Circuit 3D - Nuit]("assets/circuitNuit")
 
 ## Exécution du Projet
 
